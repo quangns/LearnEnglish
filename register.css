@@ -1,0 +1,17 @@
+h1 {
+    margin-top: 100px;
+    margin: center;
+    margin-left: 500px;
+}
+form {
+    margin-top: 50px;
+    margin-left: 400px; 
+    margin-right: 200px;
+    display: block;
+    position:absolute
+}
+form input {
+    clear: both;
+    margin-top: 20px;
+    margin-left: 10px;
+}

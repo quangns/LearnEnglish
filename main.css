@@ -1,0 +1,87 @@
+.first {
+    display: inline;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    padding-top: 20px;
+    top: 0;
+}
+.sprite {
+    display: inline;
+    margin-left: 100px;
+}
+.log {
+    margin-left: 650px;
+}
+.signin {
+    display: inline;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+.divider {
+    color: rgba(0, 0, 0, 0.219);
+}
+.first a {
+    text-decoration: none;
+    font-size: 16px;
+}
+.first ul {
+    margin-right: 100px;
+    list-style-type: none;
+    text-align: center;
+}
+.first ul button {
+    background-color: rgb(15, 170, 15);
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid black;
+    clear: both;
+}
+.first ul a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.712);
+}
+.first ul a:hover {
+    color: black;
+}
+.first ul button:hover {
+    background-color: rgb(31, 199, 31);
+}
+.section1 {
+    text-align: center;
+    background: url(picture/section-1.jpg) no-repeat;
+    height: 600px;
+    color: white;
+}
+.section1 h1 {
+    padding-top: 200px;
+    font-size: 62px;
+}
+.section1 button {
+    text-align: center;
+    color: white;
+    background-color: rgb(15, 170, 15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    margin-top: 50px;
+}
+.section1 button:hover {
+    background-color: rgb(31, 199, 31);
+}
+.section2 .left {
+    float: left;
+    clear: left;
+    margin-top: 100px;
+    margin-left: 20px;
+    display: inline-block;
+    width: 40%;
+}
+.section2 article {
+    margin-left: 50%;
+    margin-top: 30px;
+}
