@@ -24,17 +24,23 @@
         <h4>Connect with native speakers from UK or USA, and learners of English from around the world.</h4>
         <button>Sign up - It's free</button>
     </div>
-    <section class="section2">
-        <div class="left">
-            <h2><span style="color: orange;">Improve your English</span></h2>
+    <section class="s2main">
+        <div class="section2 sectionleft">
+            <h2>Improve your English</h2>
             <p>Practice your English writing and speaking skills by chatting with native speakers from UK and USA or with other learners of English.</p>
         </div>
-        <article>
+        <div class="section2 sectionright">
             <img src="picture/mockup-1.png" alt="learn english">
-        </article>
-    <section>
-    <section class="section3">
-
+        </div>
+    </section>
+    <section class="s3main">
+        <div class="section3 s3left">
+            <img src="picture/mockup-2.png" alt="learn english">
+        </div>
+        <div class="section3 s3right">
+            <h3>Meet people</h3>
+            <p>Make friends with people from all over the world and learn new cultures every day.</p>
+        </div>
     </section>
 </body>
 </html>
