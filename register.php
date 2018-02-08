@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1>Register</h1>
-    <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+    <form method="post" action="welcome2.php"<?php echo $_SERVER['PHP_SELF'];?>">
     <span>FirstName</span>
     <span style="color:red">*</span>
     <span><input type="text" name="fname" placeholder="FirstName..."></span><br>

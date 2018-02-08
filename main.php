@@ -52,12 +52,12 @@
                 <span class="s4right close">&times;</span>
             </div>
             <div class="modal-body">
-                <input class="modal-signup" type="text" name="yourname" placeholder="Your name">
-                <input type="text" name="yourmail" placeholder="Your mail"><br>
-                <input type="password" name="psw" placeholder="Password"><br>
-                <button class="forgotpw modal-login">Forgot your password?</button>
-                <button class="btnlog modal-signup">Sign up</button>
-                <button class="btnlog modal-login">Log in</button>
+                    <input class="modal-signup" type="text" name="yourname" placeholder="Your name">
+                    <input type="text" name="yourmail" placeholder="Your mail"><br>
+                    <input type="password" name="psw" placeholder="Password"><br>
+                    <button class="forgotpw modal-login">Forgot your password?</button>
+                    <input type="submit" class="btnlog modal-signup" value="Sign up">
+                    <input type="submit" class="btnlog modal-login" value="Log in">
             </div>
         </div>
     </section>

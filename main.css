@@ -135,7 +135,7 @@
 }
 .modal-content {
     background-color: #fefefe;
-    margin: 30px auto;
+    margin: 100px auto;
     padding: auto;
     border: 1px solid #888;
     width: 50%;
@@ -183,22 +183,22 @@
 .modal-body input {
     width: 60%;
     height: 20px;
-    margin: 5px 100px;
+    margin: 5px 125px;
 }
 .modal-signup, .modal-login {
     display: none;
 }
 .forgotpw {
-    margin: 5px 100px 7px;
+    margin: 5px 125px 12px;
     height: 30px;
     border: none;
     background-color: white;
 }
-.btnlog {
+input.btnlog {
     width: 62%;
     height: 40px;
     background-color: rgb(15, 170, 15);
-    margin-left: 100px;
+    margin-left: 125px;
     border-radius: 8px;
     color: white;
 }

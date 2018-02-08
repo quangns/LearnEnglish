@@ -13,6 +13,10 @@ var signup_tab = document.getElementById("signup-tab");
 
 var span = document.getElementsByClassName("close")[0];
 
+var submit_signup = document.getElementsByClassName("btnlog")[0];
+
+var submit_login = document.getElementsByClassName("btnlog")[1];
+
 function click_login() {
     modal.style.display = "block";
     signup_tab.style.background = "#e7e7e7";
@@ -48,3 +52,8 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+// When the user click sign-up button of the modal
+submit_signup.addEventListener('click', function() {
+    document.location.href="Get_info.php";
+})
